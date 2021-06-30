@@ -7,7 +7,7 @@ void swap_max(int arr[], int l, int n)
 int max=arr[l];
 int i;
 for(i=l;i<=n;i++)
-if(arr[i]<max)
+if(arr[i]>max)
 max=arr[i];
 int t=max;
 max=arr[l];
